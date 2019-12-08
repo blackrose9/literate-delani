@@ -39,10 +39,19 @@ section{
 /* CSS for What-we-do Section*/
 #what-we-do{
 }
-.wwd{
+.wwd1 .wwd2 .wwd3{
    height: 30%;
    width: 30%;
    border: 1px solid black;
+}
+#wwdtext1{
+   display: none;
+}
+#wwdtext2{
+   display: none;
+}
+#wwdtext3{
+   display: none;
 }
 
 /* CSS for Portfolio Section*/
