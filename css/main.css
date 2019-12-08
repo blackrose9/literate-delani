@@ -1,0 +1,49 @@
+*{
+   /* CSS Reset */
+}
+body{
+
+}
+section{
+   text-align: center;
+   height: max-content;
+   padding: 5%;
+}
+
+/* CSS for landing page */
+#landing{
+   background-image: url(../img/backgrounds/h_img.jpg);
+   color: white;
+   background-size: cover;
+}
+#landingarticle{
+   padding-top: 14%;
+}
+#mousy{
+   padding-top: 10%;
+   padding-bottom: 2%;
+}
+
+/* CSS for About Section*/
+#about{
+}
+
+/* CSS for Services Section*/
+#services{
+   background-image: url(../img/backgrounds/s_image.jpg);
+   background-size: cover;
+   color: white;
+   padding-top: 8%;
+}
+
+/* CSS for What-we-do Section*/
+#what-we-do{}
+
+/* CSS for Portfolio Section*/
+#portfolio{}
+
+/* CSS for Contact us Page*/
+#contact{}
+
+/* CSS for Footer*/
+footer{}
