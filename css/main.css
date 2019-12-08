@@ -37,13 +37,21 @@ section{
 }
 
 /* CSS for What-we-do Section*/
-#what-we-do{}
+#what-we-do{
+}
+.wwd{
+   height: 30%;
+   width: 30%;
+   border: 1px solid black;
+}
 
 /* CSS for Portfolio Section*/
 #portfolio{}
 
 /* CSS for Contact us Page*/
 #contact{}
+#contact form{
+}
 
 /* CSS for Footer*/
 footer{}
