@@ -109,8 +109,8 @@ section{
 }
 
 /* CSS for Contact us Page*/
-#contact{}
-#contact form{
+.form-inline input{
+   margin-left: 20%;
 }
 
 /* CSS for Footer*/
