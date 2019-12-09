@@ -78,11 +78,11 @@ section{
    background-position: center;
    background-repeat: no-repeat;
    border: 2px solid white;
-   /* margin: 2p; */
 }
 #wwdrow article h4{
    border: 2px solid white;
    margin-top: 40%;
+   display: none;
 }
 #projecta{
    background-image: url(../img/portfolio/work1.jpg);

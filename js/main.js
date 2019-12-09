@@ -20,7 +20,8 @@ $().ready(function(){
 $().ready(function(){
    $("#projecta").mouseover(function(){
       $("#projecta h4").show();
-   });$("#projecta h4").mouseout(function(){
+   });
+   $("#projecta").mouseout(function(){
       $("#projecta h4").hide();
    })
 });
