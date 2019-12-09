@@ -1,6 +1,4 @@
-*{
-   /* CSS Reset */
-}
+
 body{
    font-family: 'Roboto', sans-serif;
 }
@@ -25,8 +23,6 @@ section{
 }
 
 /* CSS for About Section*/
-#about{
-}
 
 /* CSS for Services Section*/
 #services{
