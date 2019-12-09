@@ -73,14 +73,17 @@ section{
 #wwdrow article{
    width: 366px;
    height: 300px;
-   color: white;
    background-size: 100%;
    background-position: center;
    background-repeat: no-repeat;
    border: 2px solid white;
 }
+#wwdrow article:hover{
+   opacity: 0.5;
+}
 #wwdrow article h4{
    border: 2px solid white;
+   color: white;
    margin-top: 40%;
    display: none;
 }
