@@ -37,13 +37,25 @@ section{
 }
 
 /* CSS for What-we-do Section*/
-#what-we-do{
+#wwd1 img{
+   margin-bottom: 7%;
 }
-.wwd1 .wwd2 .wwd3{
-   height: 30%;
-   width: 30%;
-   border: 1px solid black;
+#wwd2 img{
+   margin-bottom: 10%;
 }
+#wwd3 img{
+   margin-bottom: 5%;
+}
+#wwd1 h4{
+   margin-bottom: 2%;
+}
+#wwd2 h4{
+   margin-bottom: 2%;
+}
+#wwd3 h4{
+   margin-bottom: 2%;
+}
+
 #wwdtext1{
    display: none;
 }
@@ -55,7 +67,47 @@ section{
 }
 
 /* CSS for Portfolio Section*/
-#portfolio{}
+#wwdrow{
+   margin-bottom: 10px;
+}
+#wwdrow article{
+   width: 366px;
+   height: 300px;
+   color: white;
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   border: 2px solid white;
+   /* margin: 2p; */
+}
+#wwdrow article h4{
+   border: 2px solid white;
+   margin-top: 40%;
+}
+#projecta{
+   background-image: url(../img/portfolio/work1.jpg);
+}
+#projectb{
+   background-image: url(../img/portfolio/work2.jpg);
+}
+#projectc{
+   background-image: url(../img/portfolio/work3.jpg);
+}
+#projectd{
+   background-image: url(../img/portfolio/work4.jpg);
+}
+#projecte{
+   background-image: url(../img/portfolio/work5.jpg);
+}
+#projectf{
+   background-image: url(../img/portfolio/work6.jpg);
+}
+#projectg{
+   background-image: url(../img/portfolio/work7.jpg);
+}
+#projecth{
+   background-image: url(../img/portfolio/work8.jpg);
+}
 
 /* CSS for Contact us Page*/
 #contact{}

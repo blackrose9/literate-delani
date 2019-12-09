@@ -16,3 +16,11 @@ $().ready(function(){
       $("#wwdimage3").toggle();
    });
 });
+
+$().ready(function(){
+   $("#projecta").mouseover(function(){
+      $("#projecta h4").show();
+   });$("#projecta h4").mouseout(function(){
+      $("#projecta h4").hide();
+   })
+});
