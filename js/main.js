@@ -81,3 +81,16 @@ $().ready(function(){
       $("#projecth h4").hide();
    })
 });
+
+//get data from the form, parse it into a JSON object
+$(document).ready(function() {
+   $("#blanks form").submit(function(event) {
+       var username = $("input#name").val();
+       var useremail = $("input#email").val();
+       var usermessage = $("input#message").val();
+
+       var tochimp = JSON.parse({"name":username, "email":useremail, "message":usermessage});
+
+       event.preventDefault();
+   });
+});

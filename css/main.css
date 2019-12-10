@@ -113,15 +113,19 @@ section{
    background-image: url(../img/backgrounds/c_image.jpg);
 }
 
-.form-inline input{
+.mc-field-group input{
    background: transparent;
 }
-#name{
-   margin-left: 25%;
+/* added */
+#mce-NAME{
+   float: left;
+   margin-left: 170px;
 }
-.form-group textarea{
-   background: transparent;
-   margin-left: 50%;
+#mce-MESSAGE{
+   height: 200px;
+}
+#mce-EMAIL{
+   margin-left: -170px;
 }
 
 /* CSS for Footer*/
