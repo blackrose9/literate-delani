@@ -111,12 +111,12 @@ section{
 /* CSS for Contact us Page*/
 #contact{
    background-image: url(../img/backgrounds/c_image.jpg);
+   color: white;
 }
 
 .mc-field-group input{
    background: transparent;
 }
-/* added */
 #mce-NAME{
    float: left;
    margin-left: 170px;
