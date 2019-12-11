@@ -7,5 +7,7 @@ Showcases the Delani Studio website.
 There are some styling issues with the form.
 ## Technologies Used
 This project intergrated the mailchimp api. sending messages from users to their server and adding the users to a mailing list/audience. 
+## Codebeat Grade
+
 ### License
 Copyright (c) 2019 John Mutavi

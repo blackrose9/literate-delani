@@ -1,3 +1,4 @@
+// this code toggles the what we do section
 $().ready(function(){
    $("#wwd1").click(function(){
       $("#wwdtext1").toggle();
@@ -16,7 +17,9 @@ $().ready(function(){
       $("#wwdimage3").toggle();
    });
 });
+//end of what we do section
 
+//this code defines the mouse over function implemented on the portfolio
 $().ready(function(){
    $("#projecta").mouseover(function(){
       $("#projecta h4").show();
@@ -81,6 +84,7 @@ $().ready(function(){
       $("#projecth h4").hide();
    })
 });
+//end of portfolio section
 
 //get data from the form, parse it into a JSON object
 // $(document).ready(function() {
