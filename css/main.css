@@ -129,4 +129,6 @@ section{
 }
 
 /* CSS for Footer*/
-footer{}
+footer{
+   text-align: center;
+}
